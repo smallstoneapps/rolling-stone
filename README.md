@@ -3,9 +3,7 @@
 A more advanced locale creation and management command line tool for Pebble
 apps, based on the official [locale_framework][original_repo] tool.
 
-https://img.shields.io/travis/joyent/node.svg
-
-[![Travis Status](https://img.shields.io/travis/smallstoneapps/rolling-stone.svg?style=flat-square)](https://travis-ci.org/smallstoneapps/rolling-stone/)
+[![Travis Status](https://img.shields.io/travis/smallstoneapps/rolling-stone.svg?style=flat-square)](https://travis-ci.org/smallstoneapps/rolling-stone/) [![NPM Version](https://img.shields.io/npm/v/rolling-stone.svg?style=flat-square)](https://www.npmjs.com/package/rolling-stone) ![Dependencies](https://img.shields.io/david/smallstoneapps/rolling-stone.svg?style=flat-square)
 
 ## Installation
 
