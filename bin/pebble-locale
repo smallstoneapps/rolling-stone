@@ -1,0 +1,29 @@
+#!/usr/bin/env node
+
+var pkg = require('../package.json');
+var program = require('electron')('pebble-locale');
+var PebbleLocale = require('../pebble-locale');
+
+program
+  .name('My Cool App')
+  .desc('http://docs.mycoolapp.com')
+  .version(pkg.version);
+
+program
+  .command('init')
+  .desc('Setup your Pebble project for localization')
+  .action(PebbleLocale.init);
+
+program
+  .command('list')
+  .action(PebbleLocale.list);
+
+program
+  .command('extract')
+  .action(PebbleLocale.extract);
+
+program
+  .command('build')
+  .action(PebbleLocale.build);
+
+program.parse();
