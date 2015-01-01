@@ -1,5 +1,5 @@
 {
-  "name": "pebble-locale",
+  "name": "rolling-stone",
   "version": "1.0.0",
   "description": "CLI tool for easily managing localised Pebble apps",
   "main": "index.js",
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/smallstoneapps/pebble-locale.git"
+    "url": "https://github.com/smallstoneapps/rolling-stone.git"
   },
   "keywords": [
     "pebble"
@@ -16,9 +16,9 @@
   "author": "Matthew Tole <pebble@matthewtole.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/smallstoneapps/pebble-locale/issues"
+    "url": "https://github.com/smallstoneapps/rolling-stone/issues"
   },
-  "homepage": "https://github.com/smallstoneapps/pebble-locale",
+  "homepage": "https://github.com/smallstoneapps/rolling-stone",
   "dependencies": {
     "async": "^0.9.0",
     "cli-table": "^0.3.1",
