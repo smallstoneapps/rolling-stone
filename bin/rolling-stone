@@ -1,12 +1,12 @@
 #!/usr/bin/env node
 
 var pkg = require('../package.json');
-var program = require('electron')('pebble-locale');
-var PebbleLocale = require('../pebble-locale');
+var program = require('electron')('rolling-stone');
+var PebbleLocale = require('../rolling-stone');
 
 program
-  .name('My Cool App')
-  .desc('http://docs.mycoolapp.com')
+  .name('rolling-stone')
+  .desc('A command line tool for managing localised Pebble apps')
   .version(pkg.version);
 
 program
@@ -16,14 +16,17 @@ program
 
 program
   .command('list')
+  .desc('Find and print a list of all localised strings in your source code')
   .action(PebbleLocale.list);
 
 program
   .command('extract')
+  .desc('Extract the localised strings from your source code ready for translation')
   .action(PebbleLocale.extract);
 
 program
   .command('build')
+  .desc('Create the binary files used at runtime to localise your app')
   .action(PebbleLocale.build);
 
 program.parse();

@@ -1,11 +1,11 @@
-var fs = require('fs');
-var walk = require('walk');
-var path = require('path');
 var async = require('async');
-var Table = require('cli-table');
-var mkdirp = require('mkdirp');
 var djb2 = require('djb2');
+var fs = require('fs');
+var mkdirp = require('mkdirp');
+var path = require('path');
 var Struct = require('struct');
+var Table = require('cli-table');
+var walk = require('walk');
 
 module.exports = (function () {
 
